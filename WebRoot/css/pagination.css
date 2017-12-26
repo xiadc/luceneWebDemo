@@ -1,0 +1,19 @@
+.pagination { overflow:hidden; float: right; text-align:right; height:30px; .lheight(30px); margin-top:5px;}
+.pagination a { text-decoration: none;}
+.pagination a, .pagination span { 
+	float: left;
+	color: #333;
+	font-size:12px;
+	line-height:24px;
+	font-weight: normal;
+	text-align: center;
+	min-width: 14px;
+	padding: 0 7px;
+	&:hover{color:#ff0000;}
+}
+.pagination .current {cursor: default; color:#ff0000;}
+.pagination .current.prev, .pagination .current.next{
+	color:#999;
+	border-color:#999;
+	background:#fff;
+}

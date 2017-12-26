@@ -1,0 +1,55 @@
+.psqtitle {
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+.questcon {
+	border-radius: 0.5em;
+	padding: 20px 40px 20px 40px;
+	font-size: 14px;
+	background: #F5F5F5;
+	margin: 30px 30px 30px 30px;
+}
+
+.questcon .questtitle {
+	padding-bottom: 10px;
+}
+
+.questcon .questanswer {
+	padding-bottom: 5px;
+}
+
+.questcon .questanswer .answertalbe {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	width: 100%;
+}
+
+.questcon .questanswer .answertalbe td {
+	line-height: 40px;
+	border-bottom: 1px solid #E6E6E6;
+	border-top: 1px solid #E6E6E6;
+	word-break: break-all;
+	text-align: left;
+	color: #666;
+}
+
+.questcon .questanswer .answertalbe label {
+	display: inline-block;
+	cursor: pointer;
+	width: 100%;
+}
+
+.questcon .questanswer textarea {
+	resize: none;
+	padding: 8px;
+	width: 97%;
+	border: 1px #dbdbdb solid;
+	height: 60px;
+	border-radius: 3px;
+	box-shadow: 0 0 3px #ebebeb inset
+}

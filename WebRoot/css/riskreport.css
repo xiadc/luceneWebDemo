@@ -1,0 +1,188 @@
+.mchntReportContent {
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	font-family: PingHei, STHeitiSC-Light, 'Microsoft Yahei', 'Î¢ÈíÑÅºÚ', Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+	margin: 50px 60px 10px 60px;
+	background: #f8fBfA;
+	border-radius: 3px;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.24);
+}
+.mchntReportItem {
+	clear: left;
+	padding: 20px 10px 10px 10px;
+	margin: 0px 2px 0px 2px;
+	border-radius-top: 8px;
+}
+.mchntReportItem:nth-child(n+2) {
+	clear: left;
+	padding: 20px 10px 10px 10px;
+}
+.mchntReportItem .title {
+	width: 100%;
+	margin-left: 15px;
+}
+.mchntReportItem .title span {
+	font-size: 17px;
+	font-weight: bold;
+}
+.mchntReportItem .unexits {
+	text-align: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+	color: gray;
+	margin-left: 15px;
+}
+.riskreport-detail {
+	table-layout: fixed;
+	text-align: center;
+	width: 100%;
+	margin-top: 15px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+.riskreport-detail tr th {
+	line-height: 20px;
+	border-top: 1px #bbbaba solid;
+	border-bottom: 1px #bbbaba solid;
+	border-left: 1px #bbbaba solid;
+	color: #333
+}
+.riskreport-detail tr td:first-child,.riskreport-detail tr th:first-child {
+	border-left: none
+}
+.riskreport-detail tr td:last-child {
+	width: auto
+}
+.riskreport-detail tr td {
+	border-bottom: 1px #dfdfdf dotted;
+	line-height: 1.5em;
+	padding: 5px 0;
+	word-break: break-all
+}
+.riskreport-total {
+	text-align: center;
+	width: 100%
+}
+.riskreport-total tr th {
+	border-bottom: 1px #bbbaba solid;
+	border-left: 1px #bbbaba solid;
+	color: #333;
+	padding: 0 5px;
+	height: 30px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1
+}
+.riskreport-total tr th:last-child {
+	border-right: 1px #bbbaba solid;
+}
+.riskreport-total tr:first-child th {
+	border-top: 1px #bbbaba solid;
+}
+.riskreport-total tr td {
+	border-bottom: 1px #bbbaba dotted;
+	border-left: 1px #bbbaba dotted;
+	padding: 0 5px;
+	overflow: hidden;
+	position: relative;
+	height: 26px;
+	line-height: 26px
+}
+.riskreport-total tr td:last-child {
+	border-right: 1px #bbbaba dotted;
+}
+.riskreport-total tr:last-child td {
+	border-bottom: 1px #bbbaba solid;
+}
+.table_mchntreport {
+	table-layout: fixed;
+	width: 100%;
+	text-align: left
+}
+.table_mchntreport tr td {
+	padding: 6px 0;
+	padding-left: 16px;
+}
+.table_mchntreport tr td:nth-child(2n+1) {
+	width: 90px;
+	/*font-weight: bold;*/
+}
+.table_mchntreport tr td {
+	border-top: 1px solid #ddd;
+}
+.table_mchntreport tr:last-child td {
+	border-bottom: 1px solid #ddd;
+}
+.tabdiv {
+	padding-top: 10px;
+	margin-bottom: 0;
+	width: 100%;
+	border-bottom: 1px #c3c1c1 solid;
+}
+.tabdiv .general {
+	color: #606060;
+	border: solid 1px #b7b7b7;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top, #fff, #ededed);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+.tabdiv .active {
+	color: #999;
+	border-bottom: solid 1px #f8fBfA;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+	background: -moz-linear-gradient(top, #ededed, #fff);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+.tabdiv .tabitem {
+	font-size: 12px;
+	width: 40px;
+	vertical-align: baseline;
+	display: inline-block;
+	zoom: 1;
+	vertical-align: baseline;
+	margin: 0 2px ;
+	margin: 0;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	padding: .5em 2em .55em;
+	-webkit-border-radius: .5em .5em 0 0;
+	-moz-border-radius: .5em .5em 0 0;
+	border-radius: .5em .5em 0 0;
+}
+.image-operate-div {
+	display: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 9999999;
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center;
+	margin: auto;
+	left: 0px;
+	top: 0px;
+	bottom: 0;
+	right: 0;
+}
+.image-operate-div .image-operate-btn {
+	border: 1px #d6d6d6 solid;
+	height: 28px;
+	line-height: 26px;
+	width: 60px;
+	color: #666;
+	display: inline-block;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 0 #8c8c8c;
+	cursor: pointer;
+	margin-left: 5px;
+	background: -o-linear-gradient(top, #f4f3f3 0, #e1e1e1 100%);
+	background: -ms-linear-gradient(top, #f4f3f3 0, #e1e1e1 100%);
+	background: -moz-linear-gradient(top, #f4f3f3 0, #e1e1e1 100%);
+	background: -webkit-linear-gradient(top, #f4f3f3 0, #e1e1e1 100%);
+	background: linear-gradient(top, #f4f3f3 0, #e1e1e1 100%)
+}
